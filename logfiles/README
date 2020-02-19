@@ -1,0 +1,5 @@
+Your Ubuntu system was recently compromised and most of the log files were deleted by the attackers.
+However, recovery from the drives gave you some tampered log files.
+The attackers must have tried several times before actually getting access to your system.
+It is open that the attackers have used remote login as their weapon. 
+Can you find the details of this incident?

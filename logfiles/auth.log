@@ -1,0 +1,1064 @@
+Feb 13 12:06:19 Admin systemd-logind[716]: New seat seat0.
+Feb 13 12:06:19 Admin systemd-logind[716]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 13 12:06:19 Admin systemd-logind[716]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 13 12:06:19 Admin systemd-logind[716]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 13 12:06:23 Admin su: (to oracle) root on none
+Feb 13 12:06:23 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 12:06:23 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 13 12:06:27 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 12:06:27 Admin systemd-logind[716]: New session c2 of user Debian-gdm.
+Feb 13 12:06:27 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 12:06:33 Admin dbus-daemon[710]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.42" (uid=1000 pid=835 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 13 12:06:36 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 12:06:36 Admin su: (to oracle) root on none
+Feb 13 12:06:36 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 12:07:09 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 12:07:13 Admin realmd[1477]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 13 12:07:13 Admin realmd[1477]: holding daemon: startup
+Feb 13 12:07:13 Admin realmd[1477]: starting service
+Feb 13 12:07:13 Admin realmd[1477]: connected to bus
+Feb 13 12:07:13 Admin realmd[1477]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 13 12:07:13 Admin realmd[1477]: released daemon: startup
+Feb 13 12:07:13 Admin realmd[1477]: claimed name on bus: org.freedesktop.realmd
+Feb 13 12:07:14 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 12:07:20 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 12:07:25 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 12:07:25 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 13 12:07:25 Admin systemd-logind[716]: New session 3 of user root.
+Feb 13 12:07:25 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 13 12:07:35 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 12:08:14 Admin realmd[1477]: quitting realmd service after timeout
+Feb 13 12:08:14 Admin realmd[1477]: stopping service
+Feb 13 12:09:01 Admin CRON[2211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 12:09:01 Admin CRON[2211]: pam_unix(cron:session): session closed for user root
+Feb 13 12:14:50 Admin systemd-logind[716]: Lid closed.
+Feb 13 12:14:50 Admin systemd-logind[716]: Suspending...
+Feb 13 12:15:01 Admin CRON[2955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 12:15:01 Admin CRON[2955]: pam_unix(cron:session): session closed for user root
+Feb 13 12:37:06 Admin systemd-logind[716]: Lid opened.
+Feb 13 12:37:06 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 12:37:08 Admin systemd-logind[716]: Operation 'sleep' finished.
+Feb 13 12:37:10 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 12:37:11 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 13 12:37:48 Admin CRON[3259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 12:37:48 Admin CRON[3259]: pam_unix(cron:session): session closed for user root
+Feb 13 12:39:01 Admin CRON[3309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 12:39:01 Admin CRON[3309]: pam_unix(cron:session): session closed for user root
+Feb 13 12:39:30 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 13 12:39:30 Admin pkexec[3338]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-control-center/cc-remote-login-helper enable]
+Feb 13 12:39:30 Admin sshd[3344]: Server listening on 0.0.0.0 port 22.
+Feb 13 12:39:30 Admin sshd[3344]: Server listening on :: port 22.
+Feb 13 12:40:20 Admin sshd[3356]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root
+Feb 13 12:40:22 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 13 12:40:33 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2
+Feb 13 12:40:39 Admin sshd[3356]: Connection closed by authenticating user root ::1 port 10776 [preauth]
+Feb 13 12:40:39 Admin sshd[3356]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root
+Feb 13 12:45:01 Admin CRON[3728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 12:45:01 Admin CRON[3728]: pam_unix(cron:session): session closed for user root
+Feb 13 12:45:05 Admin sshd[3344]: Received signal 15; terminating.
+Feb 13 15:48:10 Admin systemd-logind[710]: New seat seat0.
+Feb 13 15:48:10 Admin systemd-logind[710]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 13 15:48:10 Admin systemd-logind[710]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 13 15:48:10 Admin systemd-logind[710]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 13 15:48:15 Admin su: (to oracle) root on none
+Feb 13 15:48:15 Admin sshd[772]: Server listening on 0.0.0.0 port 22.
+Feb 13 15:48:15 Admin sshd[772]: Server listening on :: port 22.
+Feb 13 15:48:15 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 15:48:15 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 13 15:48:23 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 15:48:23 Admin systemd-logind[710]: New session c2 of user Debian-gdm.
+Feb 13 15:48:23 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 15:48:24 Admin dbus-daemon[721]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.30" (uid=1000 pid=828 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 13 15:48:28 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 15:48:28 Admin su: (to oracle) root on none
+Feb 13 15:48:28 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 15:49:04 Admin polkitd(
+Feb 13 15:49:49 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 13 15:49:56 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 15:50:07 Admin realmd[1569]: quitting realmd service after timeout
+Feb 13 15:50:07 Admin realmd[1569]: stopping service
+Feb 13 15:55:01 Admin CRON[6816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 15:55:01 Admin CRON[6816]: pam_unix(cron:session): session closed for user root
+Feb 13 15:57:22 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 13 15:57:22 Admin pkexec[7463]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 13 15:59:16 Admin sshd[772]: Received signal 15; terminating.
+Feb 13 16:46:39 Admin systemd-logind[718]: New seat seat0.
+Feb 13 16:46:39 Admin systemd-logind[718]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 13 16:46:39 Admin systemd-logind[718]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 13 16:46:39 Admin systemd-logind[718]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 13 16:46:43 Admin sshd[780]: Server listening on 0.0.0.0 port 22.
+Feb 13 16:46:43 Admin sshd[780]: Server listening on :: port 22.
+Feb 13 16:46:45 Admin su: (to oracle) root on none
+Feb 13 16:46:45 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 16:46:46 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 13 16:46:48 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 16:46:48 Admin systemd-logind[718]: New session c2 of user Debian-gdm.
+Feb 13 16:46:48 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 16:46:52 Admin dbus-daemon[715]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.41" (uid=1000 pid=832 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 13 16:47:00 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 16:47:00 Admin su: (to oracle) root on none
+Feb 13 18:30:01 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 13 18:30:01 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 13 18:30:01 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 13 18:35:01 Admin CRON[4660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 18:35:01 Admin CRON[4660]: pam_unix(cron:session): session closed for user root
+Feb 13 18:37:37 Admin sshd[4776]: error: kex_exchange_identification: banner line contains invalid characters
+Feb 13 18:38:03 Admin sshd[4778]: error: kex_exchange_identification: banner line contains invalid characters
+Feb 13 18:38:39 Admin systemd-logind[718]: System is powering down.
+Feb 13 18:38:39 Admin sshd[780]: Received signal 15; terminating.
+Feb 13 19:25:28 Admin systemd-logind[710]: New seat seat0.
+Feb 13 19:25:28 Admin systemd-logind[710]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 13 19:25:28 Admin systemd-logind[710]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 13 19:25:28 Admin systemd-logind[710]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 13 19:25:32 Admin su: (to oracle) root on none
+Feb 13 19:25:33 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 19:25:33 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 13 19:25:33 Admin sshd[772]: Server listening on 0.0.0.0 port 22.
+Feb 13 19:25:33 Admin sshd[772]: Server listening on :: port 22.
+Feb 13 19:25:39 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 19:25:39 Admin systemd-logind[710]: New session c2 of user Debian-gdm.
+Feb 13 19:25:39 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 19:25:40 Admin dbus-daemon[702]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.40" (uid=1000 pid=813 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 13 19:25:47 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 19:25:47 Admin su: (to oracle) root on none
+Feb 13 19:25:47 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 19:26:22 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 19:26:24 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 19:26:27 Admin realmd[1589]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 13 19:26:27 Admin realmd[1589]: holding daemon: startup
+Feb 13 19:26:27 Admin realmd[1589]: starting service
+Feb 13 19:26:27 Admin realmd[1589]: connected to bus
+Feb 13 19:26:27 Admin realmd[1589]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 13 19:26:27 Admin realmd[1589]: released daemon: startup
+Feb 13 19:26:27 Admin realmd[1589]: claimed name on bus: org.freedesktop.realmd
+Feb 13 19:27:28 Admin realmd[1589]: quitting realmd service after timeout
+Feb 13 19:27:28 Admin realmd[1589]: stopping service
+Feb 13 19:27:52 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 19:27:57 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 19:27:57 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 13 19:27:57 Admin systemd-logind[710]: New session 3 of user root.
+Feb 13 19:27:57 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 13 19:28:03 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 19:30:01 Admin CRON[2637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 19:30:01 Admin CRON[2637]: pam_unix(cron:session): session closed for user root
+Feb 13 19:35:01 Admin CRON[5923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 19:35:01 Admin CRON[5923]: pam_unix(cron:session): session closed for user root
+Feb 13 19:36:35 Admin sudo:     root : TTY=pts/0 ; PWD=/root/Hrishikesh/Attacks/wifiattack/hcxtools ; USER=root ; COMMAND=/usr/bin/apt-get install libcurl-dev
+Feb 13 19:36:35 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 13 19:36:37 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 19:37:08 Admin sudo:     root : TTY=pts/0 ; PWD=/root/Hrishikesh/Attacks/wifiattack/hcxtools ; USER=root ; COMMAND=/usr/bin/apt-get install libcurl14-openssl-dev
+Feb 13 19:37:08 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 13 19:37:09 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 19:37:31 Admin sudo:     root : TTY=pts/0 ; PWD=/root/Hrishikesh/Attacks/wifiattack/hcxtools ; USER=root ; COMMAND=/usr/bin/apt-get install libcurl14-openssl-dev 7.67.0-2
+Feb 13 19:37:31 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 13 19:37:31 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 19:39:01 Admin CRON[7337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 19:39:01 Admin CRON[7337]: pam_unix(cron:session): session closed for user root
+Feb 13 19:45:01 Admin CRON[13048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 19:45:01 Admin CRON[13048]: pam_unix(cron:session): session closed for user root
+Feb 13 19:55:01 Admin CRON[23608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 19:55:01 Admin CRON[23608]: pam_unix(cron:session): session closed for user root
+Feb 13 20:01:51 Admin sudo:     root : TTY=tty2 ; PWD=/usr/share/fern-wifi-cracker ; USER=root ; COMMAND=/usr/bin/wash -i wlan0mon -C
+Feb 13 20:01:51 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 13 20:01:51 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 20:05:01 Admin CRON[24793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 20:05:01 Admin CRON[24793]: pam_unix(cron:session): session closed for user root
+Feb 13 20:09:01 Admin CRON[24814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 20:09:01 Admin CRON[24814]: pam_unix(cron:session): session closed for user root
+Feb 13 20:15:01 Admin CRON[25126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 20:15:01 Admin CRON[25126]: pam_unix(cron:session): session closed for user root
+Feb 13 20:17:01 Admin CRON[26102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 20:17:01 Admin CRON[26102]: pam_unix(cron:session): session closed for user root
+Feb 13 20:20:38 Admin sudo:     root : TTY=tty2 ; PWD=/usr/share/fern-wifi-cracker ; USER=root ; COMMAND=/usr/bin/wash -i -C
+Feb 13 20:20:38 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 13 20:20:38 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 20:20:44 Admin sudo:     root : TTY=tty2 ; PWD=/usr/share/fern-wifi-cracker ; USER=root ; COMMAND=/usr/bin/wash -i wlan0mon -C
+Feb 13 20:20:44 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 13 20:20:44 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 22:32:02 Admin systemd-logind[710]: New seat seat0.
+Feb 13 22:32:02 Admin systemd-logind[710]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 13 22:32:02 Admin systemd-logind[710]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 13 22:32:02 Admin systemd-logind[710]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 13 22:32:07 Admin sshd[773]: Server listening on 0.0.0.0 port 22.
+Feb 13 22:32:07 Admin sshd[773]: Server listening on :: port 22.
+Feb 13 22:32:08 Admin su: (to oracle) root on none
+Feb 13 22:32:08 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 22:32:08 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 13 22:32:13 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 22:32:13 Admin systemd-logind[710]: New session c2 of user Debian-gdm.
+Feb 13 22:32:13 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 13 22:32:15 Admin dbus-daemon[720]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.41" (uid=1000 pid=830 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 13 22:32:22 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 22:32:22 Admin su: (to oracle) root on none
+Feb 13 22:32:22 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 13 22:32:53 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 22:32:57 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 13 22:32:57 Admin realmd[1470]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 13 22:32:57 Admin realmd[1470]: holding daemon: startup
+Feb 13 22:32:57 Admin realmd[1470]: starting service
+Feb 13 22:32:57 Admin realmd[1470]: connected to bus
+Feb 13 22:32:57 Admin realmd[1470]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 13 22:32:57 Admin realmd[1470]: released daemon: startup
+Feb 13 22:32:57 Admin realmd[1470]: claimed name on bus: org.freedesktop.realmd
+Feb 13 22:33:03 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 22:33:11 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 13 22:33:11 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 13 22:33:11 Admin systemd-logind[710]: New session 3 of user root.
+Feb 13 22:33:11 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 13 22:33:22 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 13 22:33:57 Admin realmd[1470]: quitting realmd service after timeout
+Feb 13 22:33:57 Admin realmd[1470]: stopping service
+Feb 13 22:35:01 Admin CRON[2603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 22:35:01 Admin CRON[2603]: pam_unix(cron:session): session closed for user root
+Feb 13 22:39:01 Admin CRON[2665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 22:39:01 Admin CRON[2665]: pam_unix(cron:session): session closed for user root
+Feb 13 22:45:01 Admin CRON[2710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 22:45:01 Admin CRON[2710]: pam_unix(cron:session): session closed for user root
+Feb 13 22:55:01 Admin CRON[2838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 22:55:01 Admin CRON[2838]: pam_unix(cron:session): session closed for user root
+Feb 13 23:05:01 Admin CRON[2936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:05:01 Admin CRON[2936]: pam_unix(cron:session): session closed for user root
+Feb 13 23:09:01 Admin CRON[2950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:09:01 Admin CRON[2950]: pam_unix(cron:session): session closed for user root
+Feb 13 23:15:01 Admin CRON[2983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:15:01 Admin CRON[2983]: pam_unix(cron:session): session closed for user root
+Feb 13 23:17:01 Admin CRON[2997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:17:01 Admin CRON[2997]: pam_unix(cron:session): session closed for user root
+Feb 13 23:25:01 Admin CRON[3090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:25:01 Admin CRON[3090]: pam_unix(cron:session): session closed for user root
+Feb 13 23:30:01 Admin CRON[3220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:30:01 Admin CRON[3220]: pam_unix(cron:session): session closed for user root
+Feb 13 23:35:01 Admin CRON[3307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:35:01 Admin CRON[3307]: pam_unix(cron:session): session closed for user root
+Feb 13 23:39:01 Admin CRON[3411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:39:01 Admin CRON[3411]: pam_unix(cron:session): session closed for user root
+Feb 13 23:45:01 Admin CRON[3525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:45:01 Admin CRON[3525]: pam_unix(cron:session): session closed for user root
+Feb 13 23:55:01 Admin CRON[3799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:55:01 Admin CRON[3799]: pam_unix(cron:session): session closed for user root
+Feb 13 23:59:01 Admin CRON[3855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:59:01 Admin CRON[3855]: pam_unix(cron:session): session closed for user root
+Feb 14 00:05:01 Admin CRON[4131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:05:01 Admin CRON[4131]: pam_unix(cron:session): session closed for user root
+Feb 14 00:09:01 Admin CRON[4204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:09:01 Admin CRON[4204]: pam_unix(cron:session): session closed for user root
+Feb 14 00:15:01 Admin CRON[4416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:15:01 Admin CRON[4416]: pam_unix(cron:session): session closed for user root
+Feb 14 00:17:01 Admin CRON[4474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:17:01 Admin CRON[4474]: pam_unix(cron:session): session closed for user root
+Feb 14 00:19:02 Admin systemd-logind[710]: System is powering down.
+Feb 14 08:51:21 Admin systemd-logind[708]: New seat seat0.
+Feb 14 08:51:21 Admin systemd-logind[708]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 14 08:51:21 Admin systemd-logind[708]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 14 08:51:21 Admin systemd-logind[708]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 14 08:51:25 Admin sshd[767]: Server listening on 0.0.0.0 port 22.
+Feb 14 08:51:25 Admin sshd[767]: Server listening on :: port 22.
+Feb 14 08:51:26 Admin su: (to oracle) root on none
+Feb 14 08:51:26 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 14 08:51:26 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 14 08:51:30 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 14 08:51:30 Admin systemd-logind[708]: New session c2 of user Debian-gdm.
+Feb 14 08:51:30 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 14 08:51:32 Admin dbus-daemon[710]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.41" (uid=1000 pid=831 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 14 08:51:40 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 14 08:51:40 Admin su: (to oracle) root on none
+Feb 14 08:51:40 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 14 08:52:13 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.65 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 08:52:17 Admin realmd[1521]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 14 08:52:17 Admin realmd[1521]: holding daemon: startup
+Feb 14 08:52:17 Admin realmd[1521]: starting service
+Feb 14 08:52:17 Admin realmd[1521]: connected to bus
+Feb 14 08:52:17 Admin realmd[1521]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 14 08:52:17 Admin realmd[1521]: released daemon: startup
+Feb 14 08:52:17 Admin realmd[1521]: claimed name on bus: org.freedesktop.realmd
+Feb 14 08:52:23 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 14 08:52:26 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 08:53:13 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 08:53:14 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 14 08:53:14 Admin systemd-logind[708]: New session 3 of user root.
+Feb 14 08:53:14 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 14 08:53:18 Admin realmd[1521]: quitting realmd service after timeout
+Feb 14 08:53:18 Admin realmd[1521]: stopping service
+Feb 14 08:53:23 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.97 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 08:55:01 Admin CRON[2482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 08:55:01 Admin CRON[2482]: pam_unix(cron:session): session closed for user root
+Feb 14 08:55:29 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 08:55:29 Admin pkexec[2569]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 14 09:03:08 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 09:03:08 Admin pkexec[4599]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-control-center/cc-remote-login-helper disable]
+Feb 14 10:01:39 Admin systemd-logind[708]: Lid closed.
+Feb 14 10:01:39 Admin systemd-logind[708]: Suspending...
+Feb 14 14:56:05 Admin systemd-logind[708]: Lid opened.
+Feb 14 14:56:06 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 14:56:07 Admin systemd-logind[708]: Operation 'sleep' finished.
+Feb 14 14:56:11 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 14:56:11 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 15:05:01 Admin CRON[8484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:05:01 Admin CRON[8484]: pam_unix(cron:session): session closed for user root
+Feb 14 15:05:28 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 15:05:28 Admin pkexec[8513]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 14 15:05:28 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 15:05:28 Admin pkexec[8519]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1]
+Feb 14 15:05:29 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 15:05:29 Admin pkexec[8524]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 14 15:09:01 Admin CRON[8564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:09:01 Admin CRON[8564]: pam_unix(cron:session): session closed for user root
+Feb 14 15:15:01 Admin CRON[8851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:15:01 Admin CRON[8851]: pam_unix(cron:session): session closed for user root
+Feb 14 15:17:01 Admin CRON[8872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:17:01 Admin CRON[8872]: pam_unix(cron:session): session closed for user root
+Feb 14 15:20:14 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 15:20:14 Admin pkexec[9035]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 14 15:25:01 Admin CRON[9305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:25:01 Admin CRON[9305]: pam_unix(cron:session): session closed for user root
+Feb 14 15:30:01 Admin CRON[9629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:30:01 Admin CRON[9629]: pam_unix(cron:session): session closed for user root
+Feb 14 15:35:01 Admin CRON[9956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:35:01 Admin CRON[9956]: pam_unix(cron:session): session closed for user root
+Feb 14 15:39:01 Admin CRON[10187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:39:01 Admin CRON[10187]: pam_unix(cron:session): session closed for user root
+Feb 14 15:45:01 Admin CRON[10589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 15:45:01 Admin CRON[10589]: pam_unix(cron:session): session closed for user root
+Feb 14 15:47:38 Admin systemd-logind[708]: Lid closed.
+Feb 14 15:47:38 Admin systemd-logind[708]: Suspending...
+Feb 14 16:12:03 Admin systemd-logind[708]: Lid opened.
+Feb 14 16:12:04 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:12:05 Admin systemd-logind[708]: Operation 'sleep' finished.
+Feb 14 16:12:08 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:12:08 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 16:12:24 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 16:12:24 Admin pkexec[10967]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 14 16:12:24 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 16:12:24 Admin pkexec[11001]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1]
+Feb 14 16:12:25 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 16:12:25 Admin pkexec[11006]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 14 16:12:45 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 14 16:12:45 Admin pkexec[11015]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 14 16:13:18 Admin systemd-logind[708]: Lid closed.
+Feb 14 16:13:18 Admin systemd-logind[708]: Suspending...
+Feb 14 16:44:19 Admin systemd-logind[708]: Lid opened.
+Feb 14 16:44:20 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:44:21 Admin systemd-logind[708]: Operation 'sleep' finished.
+Feb 14 16:44:24 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:44:24 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 16:44:34 Admin CRON[11137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 16:44:34 Admin CRON[11137]: pam_unix(cron:session): session closed for user root
+Feb 14 16:45:01 Admin CRON[11148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 16:45:01 Admin CRON[11148]: pam_unix(cron:session): session closed for user root
+Feb 14 16:49:53 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:49:58 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:49:58 Admin gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=root
+Feb 14 16:50:02 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 16:50:07 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 17:56:27 Admin systemd-logind[708]: Lid closed.
+Feb 14 17:56:27 Admin systemd-logind[708]: Suspending...
+Feb 14 17:56:45 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 19:45:42 Admin systemd-logind[708]: Lid opened.
+Feb 14 19:45:44 Admin systemd-logind[708]: Operation 'sleep' finished.
+Feb 14 19:45:48 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 19:45:48 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 20:14:52 Admin systemd-logind[708]: Lid closed.
+Feb 14 20:14:52 Admin systemd-logind[708]: Suspending...
+Feb 14 20:15:01 Admin CRON[12265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 20:15:01 Admin CRON[12265]: pam_unix(cron:session): session closed for user root
+Feb 14 21:14:11 Admin systemd-logind[708]: Lid opened.
+Feb 14 21:14:13 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 21:14:13 Admin systemd-logind[708]: Operation 'sleep' finished.
+Feb 14 21:14:18 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 14 21:14:18 Admin gdm-password]: gkr-pam: unlocked login keyringFeb 15 10:01:04 Admin systemd-logind[714]: New seat seat0.
+Feb 15 10:01:04 Admin systemd-logind[714]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 15 10:01:04 Admin systemd-logind[714]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 15 10:01:04 Admin systemd-logind[714]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 15 10:01:08 Admin su: (to oracle) root on none
+Feb 15 10:01:08 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 15 10:01:09 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 15 10:01:12 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 15 10:01:12 Admin systemd-logind[714]: New session c2 of user Debian-gdm.
+Feb 15 10:01:12 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 15 10:01:15 Admin dbus-daemon[707]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.40" (uid=1000 pid=833 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 15 10:01:23 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 15 10:01:23 Admin su: (to oracle) root on none
+Feb 15 10:01:23 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 15 10:01:59 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.65 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 15 10:02:02 Admin realmd[1646]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 15 10:02:02 Admin realmd[1646]: holding daemon: startup
+Feb 15 10:02:02 Admin realmd[1646]: starting service
+Feb 15 10:02:02 Admin realmd[1646]: connected to bus
+Feb 15 10:02:02 Admin realmd[1646]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 15 10:02:02 Admin realmd[1646]: released daemon: startup
+Feb 15 10:02:02 Admin realmd[1646]: claimed name on bus: org.freedesktop.realmd
+Feb 15 10:02:06 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 15 10:02:07 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 10:02:11 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 10:02:11 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 15 10:02:11 Admin systemd-logind[714]: New session 3 of user root.
+Feb 15 10:02:11 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 15 10:02:21 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.95 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 15 10:03:03 Admin realmd[1646]: quitting realmd service after timeout
+Feb 15 10:03:03 Admin realmd[1646]: stopping service
+Feb 15 10:41:20 Admin systemd-logind[714]: System is powering down.
+Feb 15 14:02:39 Admin systemd-logind[711]: New seat seat0.
+Feb 15 14:02:39 Admin systemd-logind[711]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 15 14:02:39 Admin systemd-logind[711]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 15 14:02:39 Admin systemd-logind[711]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 15 14:02:43 Admin su: (to oracle) root on none
+Feb 15 14:02:44 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 15 14:02:44 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 15 14:02:50 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 15 14:02:50 Admin systemd-logind[711]: New session c2 of user Debian-gdm.
+Feb 15 14:02:50 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 15 14:02:52 Admin dbus-daemon[713]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.41" (uid=1000 pid=831 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 15 14:02:59 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 15 14:02:59 Admin su: (to oracle) root on none
+Feb 15 14:02:59 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 15 14:03:32 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 15 14:03:36 Admin realmd[1473]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 15 14:03:36 Admin realmd[1473]: holding daemon: startup
+Feb 15 14:03:36 Admin realmd[1473]: starting service
+Feb 15 14:03:36 Admin realmd[1473]: connected to bus
+Feb 15 14:03:36 Admin realmd[1473]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 15 14:03:36 Admin realmd[1473]: released daemon: startup
+Feb 15 14:03:36 Admin realmd[1473]: claimed name on bus: org.freedesktop.realmd
+Feb 15 14:03:36 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 15 14:03:48 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 14:03:52 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 14:03:52 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 15 14:03:52 Admin systemd-logind[711]: New session 3 of user root.
+Feb 15 14:03:52 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 15 14:03:59 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 15 14:04:37 Admin realmd[1473]: quitting realmd service after timeout
+Feb 15 14:04:37 Admin realmd[1473]: stopping service
+Feb 15 14:05:01 Admin CRON[2071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 14:05:01 Admin CRON[2071]: pam_unix(cron:session): session closed for user root
+Feb 15 14:09:01 Admin CRON[2332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 14:09:01 Admin CRON[2332]: pam_unix(cron:session): session closed for user root
+Feb 15 14:09:11 Admin systemd-logind[711]: Lid closed.
+Feb 15 14:09:11 Admin systemd-logind[711]: Suspending...
+Feb 15 14:41:10 Admin systemd-logind[711]: Lid opened.
+Feb 15 14:41:12 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 14:41:13 Admin systemd-logind[711]: Operation 'sleep' finished.
+Feb 15 14:41:18 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 14:41:18 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 15 14:41:33 Admin CRON[2895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 14:41:33 Admin CRON[2895]: pam_unix(cron:session): session closed for user root
+Feb 15 14:45:01 Admin CRON[3090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 14:45:01 Admin CRON[3090]: pam_unix(cron:session): session closed for user root
+Feb 15 14:55:01 Admin CRON[3265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 14:55:01 Admin CRON[3265]: pam_unix(cron:session): session closed for user root
+Feb 15 15:05:01 Admin systemd-logind[711]: Lid closed.
+Feb 15 15:05:01 Admin systemd-logind[711]: Suspending...
+Feb 15 15:05:01 Admin CRON[3552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 15:05:01 Admin CRON[3552]: pam_unix(cron:session): session closed for user root
+Feb 15 21:45:47 Admin systemd-logind[711]: Lid opened.
+Feb 15 21:45:50 Admin systemd-logind[711]: Operation 'sleep' finished.
+Feb 15 21:45:50 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 21:45:55 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 15 21:45:55 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 15 21:46:27 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 15 21:46:27 Admin pkexec[3739]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 15 21:46:27 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 15 21:46:27 Admin pkexec[3745]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1]
+Feb 15 21:46:28 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 15 21:46:28 Admin pkexec[3750]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 15 22:11:27 Admin systemd-logind[711]: System is powering down.
+Feb 16 10:44:52 Admin systemd-logind[720]: New seat seat0.
+Feb 16 10:44:52 Admin systemd-logind[720]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 16 10:44:52 Admin systemd-logind[720]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 16 10:44:52 Admin systemd-logind[720]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 16 10:44:57 Admin su: (to oracle) root on none
+Feb 16 10:44:57 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 16 10:44:57 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 16 10:45:00 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 16 10:45:00 Admin systemd-logind[720]: New session c2 of user Debian-gdm.
+Feb 16 10:45:00 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 16 10:45:01 Admin CRON[869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 10:45:01 Admin CRON[869]: pam_unix(cron:session): session closed for user root
+Feb 16 10:45:05 Admin dbus-daemon[717]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.42" (uid=1000 pid=833 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 16 10:45:11 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 16 10:45:11 Admin su: (to oracle) root on none
+Feb 16 10:45:11 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 16 10:45:41 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 16 10:45:45 Admin realmd[1475]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 16 10:45:45 Admin realmd[1475]: holding daemon: startup
+Feb 16 10:45:45 Admin realmd[1475]: starting service
+Feb 16 10:45:45 Admin realmd[1475]: connected to bus
+Feb 16 10:45:45 Admin realmd[1475]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 16 10:45:45 Admin realmd[1475]: released daemon: startup
+Feb 16 10:45:45 Admin realmd[1475]: claimed name on bus: org.freedesktop.realmd
+Feb 16 10:45:47 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 16 10:46:02 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 10:46:10 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 10:46:10 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 16 10:46:10 Admin systemd-logind[720]: New session 4 of user root.
+Feb 16 10:46:10 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 16 10:46:21 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:4 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 16 10:46:46 Admin realmd[1475]: quitting realmd service after timeout
+Feb 16 10:46:46 Admin realmd[1475]: stopping service
+Feb 16 11:28:16 Admin systemd-logind[720]: Lid closed.
+Feb 16 11:28:16 Admin systemd-logind[720]: Suspending...
+Feb 16 11:33:29 Admin systemd-logind[720]: Lid opened.
+Feb 16 11:33:29 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 11:33:32 Admin systemd-logind[720]: Operation 'sleep' finished.
+Feb 16 11:33:34 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 11:33:34 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 16 11:33:44 Admin CRON[3544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 11:33:44 Admin CRON[3544]: pam_unix(cron:session): session closed for user root
+Feb 16 11:34:50 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 16 11:34:50 Admin pkexec[3562]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 16 11:34:50 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 16 11:34:50 Admin pkexec[3568]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 16 11:35:01 Admin CRON[3676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 11:35:01 Admin CRON[3676]: pam_unix(cron:session): session closed for user root
+Feb 16 11:39:01 Admin CRON[3763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 11:39:01 Admin CRON[3763]: pam_unix(cron:session): session closed for user root
+Feb 16 11:45:01 Admin CRON[3859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 11:45:01 Admin CRON[3859]: pam_unix(cron:session): session closed for user root
+Feb 16 11:51:54 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 11:51:59 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 11:51:59 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 16 11:53:41 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 16 11:53:41 Admin pkexec[3973]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 16 11:53:42 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 16 11:53:42 Admin pkexec[3979]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 16 11:55:01 Admin CRON[4003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 11:55:01 Admin CRON[4003]: pam_unix(cron:session): session closed for user root
+Feb 16 12:05:01 Admin CRON[4364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:05:01 Admin CRON[4364]: pam_unix(cron:session): session closed for user root
+Feb 16 12:09:01 Admin CRON[4409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:09:01 Admin CRON[4409]: pam_unix(cron:session): session closed for user root
+Feb 16 12:15:01 Admin CRON[4736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:15:01 Admin CRON[4736]: pam_unix(cron:session): session closed for user root
+Feb 16 12:17:01 Admin CRON[4762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:17:01 Admin CRON[4762]: pam_unix(cron:session): session closed for user root
+Feb 16 12:25:01 Admin CRON[4920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:25:01 Admin CRON[4920]: pam_unix(cron:session): session closed for user root
+Feb 16 12:30:01 Admin CRON[4997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:30:01 Admin CRON[4997]: pam_unix(cron:session): session closed for user root
+Feb 16 12:35:02 Admin CRON[5095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:35:02 Admin CRON[5095]: pam_unix(cron:session): session closed for user root
+Feb 16 12:39:01 Admin CRON[5156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:39:01 Admin CRON[5156]: pam_unix(cron:session): session closed for user root
+Feb 16 12:45:01 Admin CRON[5361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 12:45:01 Admin CRON[5361]: pam_unix(cron:session): session closed for user root
+Feb 16 18:11:58 Admin systemd-logind[712]: New seat seat0.
+Feb 16 18:11:58 Admin systemd-logind[712]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 16 18:11:58 Admin systemd-logind[712]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 16 18:11:58 Admin systemd-logind[712]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 16 18:12:03 Admin su: (to oracle) root on none
+Feb 16 18:12:03 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 16 18:12:03 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 16 18:12:06 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 16 18:12:06 Admin systemd-logind[712]: New session c2 of user Debian-gdm.
+Feb 16 18:12:06 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 16 18:12:10 Admin dbus-daemon[720]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.41" (uid=1000 pid=831 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 16 18:12:18 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 16 18:12:18 Admin su: (to oracle) root on none
+Feb 16 18:12:18 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 16 18:12:18 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 16 18:12:18 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 16 18:12:18 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 16 18:12:46 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 16 18:12:50 Admin realmd[1584]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 16 18:12:50 Admin realmd[1584]: holding daemon: startup
+Feb 16 18:12:50 Admin realmd[1584]: starting service
+Feb 16 18:12:50 Admin realmd[1584]: connected to bus
+Feb 16 18:12:50 Admin realmd[1584]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 16 18:12:50 Admin realmd[1584]: released daemon: startup
+Feb 16 18:12:50 Admin realmd[1584]: claimed name on bus: org.freedesktop.realmd
+Feb 16 18:12:54 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 16 18:12:58 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 18:13:02 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 18:13:03 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 16 18:13:03 Admin systemd-logind[712]: New session 3 of user root.
+Feb 16 18:13:03 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 16 18:13:12 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 16 18:13:51 Admin realmd[1584]: quitting realmd service after timeout
+Feb 16 18:13:51 Admin realmd[1584]: stopping service
+Feb 16 18:15:01 Admin CRON[2612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:15:01 Admin CRON[2612]: pam_unix(cron:session): session closed for user root
+Feb 16 18:17:01 Admin CRON[2685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:17:02 Admin CRON[2685]: pam_unix(cron:session): session closed for user root
+Feb 16 18:25:01 Admin CRON[2916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:25:01 Admin CRON[2916]: pam_unix(cron:session): session closed for user root
+Feb 16 18:30:01 Admin CRON[3079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:30:01 Admin CRON[3079]: pam_unix(cron:session): session closed for user root
+Feb 16 18:35:01 Admin CRON[3193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:35:01 Admin CRON[3193]: pam_unix(cron:session): session closed for user root
+Feb 16 18:39:01 Admin CRON[3262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:39:01 Admin CRON[3262]: pam_unix(cron:session): session closed for user root
+Feb 16 18:45:01 Admin CRON[3345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:45:01 Admin CRON[3345]: pam_unix(cron:session): session closed for user root
+Feb 16 18:55:01 Admin CRON[3431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 18:55:01 Admin CRON[3431]: pam_unix(cron:session): session closed for user root
+Feb 16 18:57:23 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 16 18:57:23 Admin pkexec[3518]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1]
+Feb 16 18:57:24 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 16 18:57:24 Admin pkexec[3524]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 16 19:05:01 Admin CRON[3676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 19:05:01 Admin CRON[3676]: pam_unix(cron:session): session closed for user root
+Feb 16 19:09:01 Admin CRON[3696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 19:09:01 Admin CRON[3696]: pam_unix(cron:session): session closed for user root
+Feb 16 19:15:01 Admin CRON[3755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 19:15:01 Admin CRON[3755]: pam_unix(cron:session): session closed for user root
+Feb 16 19:17:01 Admin CRON[3772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 19:17:01 Admin CRON[3772]: pam_unix(cron:session): session closed for user root
+Feb 16 19:25:01 Admin CRON[3977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 19:25:01 Admin CRON[3977]: pam_unix(cron:session): session closed for user root
+Feb 16 19:26:32 Admin systemd-logind[712]: Lid closed.
+Feb 16 19:26:32 Admin systemd-logind[712]: Suspending...
+Feb 16 21:12:38 Admin systemd-logind[712]: Lid opened.
+Feb 16 21:12:39 Admin CRON[4132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:12:39 Admin CRON[4132]: pam_unix(cron:session): session closed for user root
+Feb 16 21:12:39 Admin CRON[4134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:12:39 Admin CRON[4134]: pam_unix(cron:session): session closed for user root
+Feb 16 21:12:40 Admin systemd-logind[712]: Operation 'sleep' finished.
+Feb 16 21:15:01 Admin CRON[4209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:15:01 Admin CRON[4209]: pam_unix(cron:session): session closed for user root
+Feb 16 21:16:56 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 21:17:01 Admin CRON[4220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:17:01 Admin CRON[4220]: pam_unix(cron:session): session closed for user root
+Feb 16 21:18:58 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 21:21:45 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 21:21:52 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 16 21:21:52 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 16 21:25:01 Admin CRON[4412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:25:01 Admin CRON[4412]: pam_unix(cron:session): session closed for user root
+Feb 16 21:30:01 Admin CRON[4463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:30:01 Admin CRON[4463]: pam_unix(cron:session): session closed for user root
+Feb 16 21:35:01 Admin CRON[4497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:35:01 Admin CRON[4497]: pam_unix(cron:session): session closed for user root
+Feb 16 21:39:01 Admin CRON[4514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:39:01 Admin CRON[4514]: pam_unix(cron:session): session closed for user root
+Feb 16 21:45:01 Admin CRON[4576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:45:01 Admin CRON[4576]: pam_unix(cron:session): session closed for user root
+Feb 16 21:55:01 Admin CRON[4654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 21:55:01 Admin CRON[4654]: pam_unix(cron:session): session closed for user root
+Feb 16 22:05:01 Admin CRON[4981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:05:01 Admin CRON[4981]: pam_unix(cron:session): session closed for user root
+Feb 16 22:09:01 Admin CRON[5011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:09:01 Admin CRON[5011]: pam_unix(cron:session): session closed for user root
+Feb 16 22:15:01 Admin CRON[5056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:15:01 Admin CRON[5056]: pam_unix(cron:session): session closed for user root
+Feb 16 22:17:01 Admin CRON[5086]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:17:01 Admin CRON[5086]: pam_unix(cron:session): session closed for user root
+Feb 16 22:25:01 Admin CRON[5151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:25:01 Admin CRON[5151]: pam_unix(cron:session): session closed for user root
+Feb 16 22:30:01 Admin CRON[5222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:30:01 Admin CRON[5222]: pam_unix(cron:session): session closed for user root
+Feb 16 22:35:01 Admin CRON[5324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:35:01 Admin CRON[5324]: pam_unix(cron:session): session closed for user root
+Feb 16 22:39:01 Admin CRON[5424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:39:01 Admin CRON[5424]: pam_unix(cron:session): session closed for user root
+Feb 16 22:45:01 Admin CRON[5459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:45:01 Admin CRON[5459]: pam_unix(cron:session): session closed for user root
+Feb 16 22:55:01 Admin CRON[5592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 22:55:01 Admin CRON[5592]: pam_unix(cron:session): session closed for user root
+Feb 16 23:05:01 Admin CRON[5735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:05:01 Admin CRON[5735]: pam_unix(cron:session): session closed for user root
+Feb 16 23:09:01 Admin CRON[5776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:09:01 Admin CRON[5776]: pam_unix(cron:session): session closed for user root
+Feb 16 23:15:01 Admin CRON[5854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:15:01 Admin CRON[5854]: pam_unix(cron:session): session closed for user root
+Feb 16 23:17:01 Admin CRON[5865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:17:01 Admin CRON[5865]: pam_unix(cron:session): session closed for user root
+Feb 16 23:25:01 Admin CRON[6083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:25:01 Admin CRON[6083]: pam_unix(cron:session): session closed for user root
+Feb 16 23:30:01 Admin CRON[6211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:30:01 Admin CRON[6211]: pam_unix(cron:session): session closed for user root
+Feb 16 23:35:01 Admin CRON[6308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:35:01 Admin CRON[6308]: pam_unix(cron:session): session closed for user root
+Feb 16 23:39:01 Admin CRON[6332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 16 23:39:01 Admin CRON[6332]: pam_unix(cron:session): session closed for user root
+Feb 17 08:15:48 Admin systemd-logind[709]: New seat seat0.
+Feb 17 08:15:48 Admin systemd-logind[709]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 17 08:15:48 Admin systemd-logind[709]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 17 08:15:48 Admin systemd-logind[709]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 17 08:15:52 Admin su: (to oracle) root on none
+Feb 17 08:15:53 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 17 08:15:53 Admin systemd: pam_unix(systemd-user:session): session opened for user oracle by (uid=0)
+Feb 17 08:15:55 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 17 08:15:55 Admin systemd-logind[709]: New session c2 of user Debian-gdm.
+Feb 17 08:15:55 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 17 08:16:00 Admin dbus-daemon[705]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.42" (uid=1000 pid=843 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Feb 17 08:16:07 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 17 08:16:07 Admin su: (to oracle) root on none
+Feb 17 08:16:07 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 17 08:16:43 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 17 08:16:43 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 17 08:16:43 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 17 08:16:43 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 17 08:16:43 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.65 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 17 08:16:47 Admin realmd[1530]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 17 08:16:47 Admin realmd[1530]: holding daemon: startup
+Feb 17 08:16:47 Admin realmd[1530]: starting service
+Feb 17 08:16:47 Admin realmd[1530]: connected to bus
+Feb 17 08:16:47 Admin realmd[1530]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 17 08:16:47 Admin realmd[1530]: released daemon: startup
+Feb 17 08:16:47 Admin realmd[1530]: claimed name on bus: org.freedesktop.realmd
+Feb 17 08:16:52 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 08:16:57 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 08:16:57 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 17 08:16:57 Admin systemd-logind[709]: New session 3 of user root.
+Feb 17 08:16:57 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 17 08:17:01 Admin CRON[1625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 08:17:01 Admin CRON[1625]: pam_unix(cron:session): session closed for user root
+Feb 17 08:17:07 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.95 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 17 08:17:48 Admin realmd[1530]: quitting realmd service after timeout
+Feb 17 08:17:48 Admin realmd[1530]: stopping service
+Feb 17 08:25:01 Admin CRON[2428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 08:25:01 Admin CRON[2428]: pam_unix(cron:session): session closed for user root
+Feb 17 08:30:01 Admin CRON[2442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 08:30:01 Admin CRON[2442]: pam_unix(cron:session): session closed for user root
+Feb 17 08:35:01 Admin CRON[2457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 08:35:01 Admin CRON[2457]: pam_unix(cron:session): session closed for user root
+Feb 17 08:35:44 Admin systemd-logind[709]: Lid closed.
+Feb 17 08:35:44 Admin systemd-logind[709]: Suspending...
+Feb 17 09:49:21 Admin systemd-logind[709]: Lid opened.
+Feb 17 09:49:23 Admin systemd-logind[709]: Operation 'sleep' finished.
+Feb 17 09:49:26 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 09:49:31 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 09:49:31 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 17 09:50:11 Admin CRON[3121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 09:50:11 Admin CRON[3121]: pam_unix(cron:session): session closed for user root
+Feb 17 09:55:01 Admin CRON[3505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 09:55:01 Admin CRON[3505]: pam_unix(cron:session): session closed for user root
+Feb 17 10:05:01 Admin CRON[3918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:05:01 Admin CRON[3918]: pam_unix(cron:session): session closed for user root
+Feb 17 10:09:01 Admin CRON[4854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:09:01 Admin CRON[4854]: pam_unix(cron:session): session closed for user root
+Feb 17 10:15:01 Admin CRON[5246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:15:01 Admin CRON[5246]: pam_unix(cron:session): session closed for user root
+Feb 17 10:17:01 Admin CRON[5466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:17:01 Admin CRON[5466]: pam_unix(cron:session): session closed for user root
+Feb 17 10:25:01 Admin CRON[5614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:25:01 Admin CRON[5614]: pam_unix(cron:session): session closed for user root
+Feb 17 10:25:22 Admin sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:webupd8team/java
+Feb 17 10:25:22 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 17 10:25:23 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 17 10:25:42 Admin sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install oracle-java8-installer
+Feb 17 10:25:42 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 17 10:25:43 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 17 10:30:01 Admin CRON[6259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:30:01 Admin CRON[6259]: pam_unix(cron:session): session closed for user root
+Feb 17 10:34:11 Admin su: (to oracle) root on none
+Feb 17 10:34:11 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 17 10:34:22 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 17 10:34:22 Admin su: (to oracle) root on none
+Feb 17 10:34:22 Admin su: pam_unix(su:session): session opened for user oracle by (uid=0)
+Feb 17 10:34:22 Admin su: pam_unix(su:session): session closed for user oracle
+Feb 17 10:35:01 Admin CRON[8680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:35:01 Admin CRON[8680]: pam_unix(cron:session): session closed for user root
+Feb 17 10:39:01 Admin CRON[9058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:39:01 Admin CRON[9058]: pam_unix(cron:session): session closed for user root
+Feb 17 10:45:01 Admin CRON[9270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 10:45:01 Admin CRON[9270]: pam_unix(cron:session): session closed for user root
+Feb 17 13:37:10 Admin systemd-logind[705]: New seat seat0.
+Feb 17 13:37:10 Admin systemd-logind[705]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 17 13:37:10 Admin systemd-logind[705]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 17 13:37:10 Admin systemd-logind[705]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 17 13:37:18 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 17 13:37:19 Admin systemd-logind[705]: New session c1 of user Debian-gdm.
+Feb 17 13:37:19 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 17 13:37:46 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 17 13:37:49 Admin realmd[1123]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 17 13:37:49 Admin realmd[1123]: holding daemon: startup
+Feb 17 13:37:49 Admin realmd[1123]: starting service
+Feb 17 13:37:49 Admin realmd[1123]: connected to bus
+Feb 17 13:37:49 Admin realmd[1123]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 17 13:37:49 Admin realmd[1123]: released daemon: startup
+Feb 17 13:37:49 Admin realmd[1123]: claimed name on bus: org.freedesktop.realmd
+Feb 17 13:37:54 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=131)
+Feb 17 13:37:54 Admin pkexec[1148]: Debian-gdm: Executing command [USER=root] [TTY=unknown] [CWD=/var/lib/gdm3] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 17 13:37:57 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 13:38:01 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 13:38:01 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 17 13:38:01 Admin systemd-logind[705]: New session 2 of user root.
+Feb 17 13:38:01 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 17 13:38:09 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 17 13:38:49 Admin realmd[1123]: quitting realmd service after timeout
+Feb 17 13:38:49 Admin realmd[1123]: stopping service
+Feb 17 13:39:01 Admin CRON[1799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 13:39:01 Admin CRON[1799]: pam_unix(cron:session): session closed for user root
+Feb 17 13:45:01 Admin CRON[2491]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 13:45:01 Admin CRON[2491]: pam_unix(cron:session): session closed for user root
+Feb 17 13:55:01 Admin CRON[2624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 13:55:01 Admin CRON[2624]: pam_unix(cron:session): session closed for user root
+Feb 17 14:05:01 Admin CRON[3084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:05:01 Admin CRON[3084]: pam_unix(cron:session): session closed for user root
+Feb 17 14:09:00 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 14:09:00 Admin pkexec[3351]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 17 14:09:01 Admin CRON[3360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:09:01 Admin CRON[3360]: pam_unix(cron:session): session closed for user root
+Feb 17 14:10:08 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 14:10:08 Admin pkexec[3388]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1501]
+Feb 17 14:10:08 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 14:10:08 Admin pkexec[3394]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1876]
+Feb 17 14:15:01 Admin CRON[3458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:15:01 Admin CRON[3458]: pam_unix(cron:session): session closed for user root
+Feb 17 14:17:01 Admin CRON[3529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:17:01 Admin CRON[3529]: pam_unix(cron:session): session closed for user root
+Feb 17 14:25:01 Admin CRON[4358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:25:01 Admin CRON[4358]: pam_unix(cron:session): session closed for user root
+Feb 17 14:30:01 Admin CRON[4569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:30:01 Admin CRON[4569]: pam_unix(cron:session): session closed for user root
+Feb 17 14:32:23 Admin sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/snap install android-studio --classic
+Feb 17 14:32:23 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 17 14:32:23 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 17 14:33:00 Admin sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/snap install android-studio --classic
+Feb 17 14:33:00 Admin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 17 14:34:36 Admin systemd-logind[705]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 17 14:34:36 Admin systemd-logind[705]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 17 14:34:36 Admin systemd-logind[705]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 17 14:35:01 Admin CRON[5422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:35:01 Admin CRON[5422]: pam_unix(cron:session): session closed for user root
+Feb 17 14:38:14 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 14:38:19 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 14:38:20 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 17 14:39:01 Admin CRON[5460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:39:01 Admin CRON[5460]: pam_unix(cron:session): session closed for user root
+Feb 17 14:45:01 Admin CRON[5518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:45:01 Admin CRON[5518]: pam_unix(cron:session): session closed for user root
+Feb 17 14:46:05 Admin sudo: pam_unix(sudo:session): session closed for user root
+Feb 17 14:55:01 Admin CRON[6010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 14:55:01 Admin CRON[6010]: pam_unix(cron:session): session closed for user root
+Feb 17 15:05:01 Admin CRON[6164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:05:01 Admin CRON[6164]: pam_unix(cron:session): session closed for user root
+Feb 17 15:09:01 Admin CRON[6415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:09:01 Admin CRON[6415]: pam_unix(cron:session): session closed for user root
+Feb 17 15:15:02 Admin CRON[6532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:15:02 Admin CRON[6532]: pam_unix(cron:session): session closed for user root
+Feb 17 15:16:39 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 15:16:39 Admin pkexec[6594]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1501]
+Feb 17 15:16:39 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 15:16:39 Admin pkexec[6600]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 17 15:16:40 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 15:16:40 Admin pkexec[6605]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 17 15:16:40 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 15:16:40 Admin pkexec[6610]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 17 15:17:01 Admin CRON[6614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:17:01 Admin CRON[6614]: pam_unix(cron:session): session closed for user root
+Feb 17 15:25:01 Admin CRON[7122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:25:01 Admin CRON[7122]: pam_unix(cron:session): session closed for user root
+Feb 17 15:30:01 Admin CRON[7411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:30:01 Admin CRON[7411]: pam_unix(cron:session): session closed for user root
+Feb 17 15:35:01 Admin CRON[7519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:35:01 Admin CRON[7519]: pam_unix(cron:session): session closed for user root
+Feb 17 15:39:01 Admin CRON[7681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:39:01 Admin CRON[7681]: pam_unix(cron:session): session closed for user root
+Feb 17 15:45:01 Admin CRON[7734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:45:01 Admin CRON[7734]: pam_unix(cron:session): session closed for user root
+Feb 17 15:55:01 Admin CRON[7821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 15:55:01 Admin CRON[7821]: pam_unix(cron:session): session closed for user root
+Feb 17 16:05:01 Admin CRON[8048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 16:05:01 Admin CRON[8048]: pam_unix(cron:session): session closed for user root
+Feb 17 16:09:01 Admin CRON[8254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 16:09:01 Admin CRON[8254]: pam_unix(cron:session): session closed for user root
+Feb 17 16:09:14 Admin systemd-logind[705]: Lid closed.
+Feb 17 16:09:14 Admin systemd-logind[705]: Suspending...
+Feb 17 22:51:47 Admin systemd-logind[705]: Lid opened.
+Feb 17 22:51:49 Admin systemd-logind[705]: Operation 'sleep' finished.
+Feb 17 22:51:50 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 22:51:55 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 17 22:51:55 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 17 22:52:12 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 22:52:12 Admin pkexec[8490]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 17 22:52:12 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 17 22:52:12 Admin pkexec[8496]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 18 12:43:24 Admin systemd-logind[733]: New seat seat0.
+Feb 18 12:43:24 Admin systemd-logind[733]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 18 12:43:24 Admin systemd-logind[733]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 18 12:43:24 Admin systemd-logind[733]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 18 12:43:32 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 18 12:43:32 Admin systemd-logind[733]: New session c1 of user Debian-gdm.
+Feb 18 12:43:32 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 18 12:43:59 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 18 12:44:01 Admin realmd[1088]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 18 12:44:01 Admin realmd[1088]: holding daemon: startup
+Feb 18 12:44:01 Admin realmd[1088]: starting service
+Feb 18 12:44:01 Admin realmd[1088]: connected to bus
+Feb 18 12:44:01 Admin realmd[1088]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 18 12:44:02 Admin realmd[1088]: released daemon: startup
+Feb 18 12:44:02 Admin realmd[1088]: claimed name on bus: org.freedesktop.realmd
+Feb 18 12:44:12 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 18 12:44:17 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 18 12:44:17 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 18 12:44:17 Admin systemd-logind[733]: New session 2 of user root.
+Feb 18 12:44:17 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 18 12:44:23 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 18 12:45:01 Admin CRON[2131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 12:45:01 Admin CRON[2131]: pam_unix(cron:session): session closed for user root
+Feb 18 12:45:02 Admin realmd[1088]: quitting realmd service after timeout
+Feb 18 12:45:02 Admin realmd[1088]: stopping service
+Feb 18 12:55:01 Admin CRON[2690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 12:55:01 Admin CRON[2690]: pam_unix(cron:session): session closed for user root
+Feb 18 13:02:41 Admin systemd-logind[733]: Lid closed.
+Feb 18 13:02:41 Admin systemd-logind[733]: Suspending...
+Feb 18 14:20:02 Admin systemd-logind[733]: Lid opened.
+Feb 18 14:20:04 Admin systemd-logind[733]: Operation 'sleep' finished.
+Feb 18 14:20:21 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 18 14:20:22 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 18 14:20:22 Admin pkexec[2942]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 18 14:20:27 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 18 14:20:27 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 18 14:20:52 Admin CRON[3077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:20:52 Admin CRON[3077]: pam_unix(cron:session): session closed for user root
+Feb 18 14:25:01 Admin CRON[3227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:25:02 Admin CRON[3227]: pam_unix(cron:session): session closed for user root
+Feb 18 14:30:02 Admin CRON[3280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:30:02 Admin CRON[3280]: pam_unix(cron:session): session closed for user root
+Feb 18 14:35:01 Admin CRON[3314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:35:01 Admin CRON[3314]: pam_unix(cron:session): session closed for user root
+Feb 18 14:39:01 Admin CRON[3408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:39:01 Admin CRON[3408]: pam_unix(cron:session): session closed for user root
+Feb 18 14:45:01 Admin CRON[3545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:45:01 Admin CRON[3545]: pam_unix(cron:session): session closed for user root
+Feb 18 14:55:01 Admin CRON[3687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 14:55:01 Admin CRON[3687]: pam_unix(cron:session): session closed for user root
+Feb 18 14:58:59 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 18 14:58:59 Admin pkexec[3773]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 18 15:05:01 Admin CRON[3912]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:05:01 Admin CRON[3912]: pam_unix(cron:session): session closed for user root
+Feb 18 15:09:01 Admin CRON[3959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:09:01 Admin CRON[3959]: pam_unix(cron:session): session closed for user root
+Feb 18 15:15:01 Admin CRON[4042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:15:01 Admin CRON[4042]: pam_unix(cron:session): session closed for user root
+Feb 18 15:17:01 Admin CRON[4060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:17:01 Admin CRON[4060]: pam_unix(cron:session): session closed for user root
+Feb 18 15:25:01 Admin CRON[4163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:25:01 Admin CRON[4163]: pam_unix(cron:session): session closed for user root
+Feb 18 15:30:01 Admin CRON[4353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:30:01 Admin CRON[4353]: pam_unix(cron:session): session closed for user root
+Feb 18 15:35:01 Admin CRON[4423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:35:01 Admin CRON[4423]: pam_unix(cron:session): session closed for user root
+Feb 18 15:39:01 Admin CRON[4510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:39:01 Admin CRON[4510]: pam_unix(cron:session): session closed for user root
+Feb 18 15:45:01 Admin CRON[4579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:45:01 Admin CRON[4579]: pam_unix(cron:session): session closed for user root
+Feb 18 15:55:01 Admin CRON[4735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 15:55:01 Admin CRON[4735]: pam_unix(cron:session): session closed for user root
+Feb 18 16:05:01 Admin CRON[4933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 16:05:01 Admin CRON[4933]: pam_unix(cron:session): session closed for user root
+Feb 18 16:09:01 Admin CRON[4977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 16:09:01 Admin CRON[4977]: pam_unix(cron:session): session closed for user root
+Feb 18 16:15:01 Admin CRON[5045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 16:15:01 Admin CRON[5045]: pam_unix(cron:session): session closed for user root
+Feb 18 16:17:01 Admin CRON[5074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 16:17:01 Admin CRON[5074]: pam_unix(cron:session): session closed for user root
+Feb 18 16:25:01 Admin CRON[5257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 16:25:01 Admin CRON[5257]: pam_unix(cron:session): session closed for user root
+Feb 18 19:12:34 Admin systemd-logind[728]: New seat seat0.
+Feb 18 19:12:34 Admin systemd-logind[728]: Watching system buttons on /dev/input/event2 (Power Button)
+Feb 18 19:12:34 Admin systemd-logind[728]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Feb 18 19:12:34 Admin systemd-logind[728]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 18 19:12:42 Admin gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Feb 18 19:12:42 Admin systemd-logind[728]: New session c1 of user Debian-gdm.
+Feb 18 19:12:42 Admin systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Feb 18 19:13:09 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 18 19:13:11 Admin realmd[1078]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Feb 18 19:13:11 Admin realmd[1078]: holding daemon: startup
+Feb 18 19:13:11 Admin realmd[1078]: starting service
+Feb 18 19:13:11 Admin realmd[1078]: connected to bus
+Feb 18 19:13:11 Admin realmd[1078]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Feb 18 19:13:11 Admin realmd[1078]: released daemon: startup
+Feb 18 19:13:11 Admin realmd[1078]: claimed name on bus: org.freedesktop.realmd
+Feb 18 19:13:14 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 18 19:13:20 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 18 19:13:20 Admin gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Feb 18 19:13:20 Admin systemd-logind[728]: New session 2 of user root.
+Feb 18 19:13:20 Admin systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 18 19:13:27 Admin polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 18 19:14:12 Admin realmd[1078]: quitting realmd service after timeout
+Feb 18 19:14:12 Admin realmd[1078]: stopping service
+Feb 18 19:15:01 Admin CRON[1670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:15:01 Admin CRON[1670]: pam_unix(cron:session): session closed for user root
+Feb 18 19:17:01 Admin CRON[2400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:17:01 Admin CRON[2400]: pam_unix(cron:session): session closed for user root
+Feb 18 19:25:01 Admin CRON[2872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:25:01 Admin CRON[2872]: pam_unix(cron:session): session closed for user root
+Feb 18 19:30:01 Admin CRON[3037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:30:01 Admin CRON[3037]: pam_unix(cron:session): session closed for user root
+Feb 18 19:35:01 Admin CRON[3163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:35:01 Admin CRON[3163]: pam_unix(cron:session): session closed for user root
+Feb 18 19:39:01 Admin CRON[3237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:39:01 Admin CRON[3237]: pam_unix(cron:session): session closed for user root
+Feb 18 19:45:01 Admin CRON[3362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:45:01 Admin CRON[3362]: pam_unix(cron:session): session closed for user root
+Feb 18 19:55:01 Admin CRON[3489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 18 19:55:01 Admin CRON[3489]: pam_unix(cron:session): session closed for user root
+Feb 18 19:55:01 Admin sshd[3356]: Failed password for root from 192.168.17.102 port 10776 ssh2 
+Feb 18 19:55:03 Admin sshd[17481]: pam_unix(sshd:session): session opened for user root by (uid=0) }7n@7r0pm1_3r@_5G01{FTC_tcip
+Feb 18 20:01:30 Admin systemd-logind[728]: Lid closed.
+Feb 18 20:01:30 Admin systemd-logind[728]: Suspending...
+Feb 19 12:22:19 Admin systemd-logind[728]: Lid opened.
+Feb 19 12:22:20 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 19 12:22:22 Admin systemd-logind[728]: Operation 'sleep' finished.
+Feb 19 12:22:25 Admin gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Feb 19 12:22:25 Admin gdm-password]: gkr-pam: unlocked login keyring
+Feb 19 12:25:01 Admin CRON[4441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 12:25:01 Admin CRON[4441]: pam_unix(cron:session): session closed for user root
+Feb 19 12:30:01 Admin CRON[4656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 12:30:01 Admin CRON[4656]: pam_unix(cron:session): session closed for user root
+Feb 19 12:35:01 Admin CRON[4827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 12:35:01 Admin CRON[4827]: pam_unix(cron:session): session closed for user root
+Feb 19 12:39:01 Admin CRON[5017]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 12:39:01 Admin CRON[5017]: pam_unix(cron:session): session closed for user root
+Feb 19 12:45:01 Admin CRON[5179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 12:45:01 Admin CRON[5179]: pam_unix(cron:session): session closed for user root
+Feb 19 12:55:01 Admin CRON[5371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 12:55:01 Admin CRON[5371]: pam_unix(cron:session): session closed for user root
+Feb 19 13:02:24 Admin PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Feb 19 13:02:24 Admin PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Feb 19 13:05:01 Admin CRON[6483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:05:01 Admin CRON[6483]: pam_unix(cron:session): session closed for user root
+Feb 19 13:09:01 Admin CRON[6950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:09:01 Admin CRON[6950]: pam_unix(cron:session): session closed for user root
+Feb 19 13:14:51 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:51 Admin pkexec[7696]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1501]
+Feb 19 13:14:51 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:51 Admin pkexec[7703]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1876]
+Feb 19 13:14:51 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:51 Admin pkexec[7708]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 2251]
+Feb 19 13:14:52 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:52 Admin pkexec[7713]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 2626]
+Feb 19 13:14:59 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:59 Admin pkexec[7718]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 2251]
+Feb 19 13:14:59 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:59 Admin pkexec[7724]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1876]
+Feb 19 13:14:59 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:14:59 Admin pkexec[7729]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1501]
+Feb 19 13:15:00 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:15:00 Admin pkexec[7734]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 19 13:15:00 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:15:00 Admin pkexec[7739]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 19 13:15:01 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:15:01 Admin pkexec[7744]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 1126]
+Feb 19 13:15:01 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:15:01 Admin pkexec[7749]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 19 13:15:01 Admin CRON[7753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:15:01 Admin CRON[7753]: pam_unix(cron:session): session closed for user root
+Feb 19 13:15:02 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:15:02 Admin pkexec[7758]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 376]
+Feb 19 13:15:02 Admin pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=0)
+Feb 19 13:15:02 Admin pkexec[7763]: root: Executing command [USER=root] [TTY=unknown] [CWD=/root] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 751]
+Feb 19 13:17:01 Admin CRON[7999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:17:01 Admin CRON[7999]: pam_unix(cron:session): session closed for user root
+Feb 19 13:25:01 Admin CRON[8442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:25:01 Admin CRON[8442]: pam_unix(cron:session): session closed for user root
+Feb 19 13:30:01 Admin CRON[8672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:30:01 Admin CRON[8672]: pam_unix(cron:session): session closed for user root
+Feb 19 13:35:01 Admin CRON[8866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:35:01 Admin CRON[8866]: pam_unix(cron:session): session closed for user root
+Feb 19 13:39:01 Admin CRON[9057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:39:01 Admin CRON[9057]: pam_unix(cron:session): session closed for user root
+Feb 19 13:45:01 Admin CRON[9461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:45:01 Admin CRON[9461]: pam_unix(cron:session): session closed for user root
+Feb 19 13:55:01 Admin CRON[9813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 13:55:01 Admin CRON[9813]: pam_unix(cron:session): session closed for user root
+Feb 19 14:05:01 Admin CRON[10305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 14:05:01 Admin CRON[10305]: pam_unix(cron:session): session closed for user root
+Feb 19 14:09:01 Admin CRON[10498]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 14:09:01 Admin CRON[10498]: pam_unix(cron:session): session closed for user root
+Feb 19 14:15:01 Admin CRON[10581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 14:15:01 Admin CRON[10581]: pam_unix(cron:session): session closed for user root
+Feb 19 14:17:01 Admin CRON[10651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 14:17:01 Admin CRON[10651]: pam_unix(cron:session): session closed for user root
